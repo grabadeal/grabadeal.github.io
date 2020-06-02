@@ -1,7 +1,10 @@
 html{box-sizing:border-box;font-size:100%}
 *,:after,:before{box-sizing:inherit}
 body{background-color:#060042;background-image:linear-gradient(#060042 2%,#20a39e 108%);color:#fff;min-height:100vh;text-align:center;font-family:Roboto,sans-serif}
-.logo{width:120px}
+.logo {
+  width:90px;
+  margin-top: 20px;
+}
 a.featured:hover,a:hover{background-color:#060042;color:#fff}
 a{display:block;max-width:400px;margin:0 auto 15px;padding:15px 20px;font-size:.85rem;color:#fff;border:2px solid #fff;text-decoration:none;transition:all .2s ease-in-out}
 a.featured{position:relative;background-color:#fff;color:#060042;font-weight:700}

@@ -17,7 +17,7 @@ body {
   color: #fff;
   min-height: 100vh;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .logo {
@@ -38,13 +38,12 @@ a {
   transition: all .2s ease-in-out
 }
 
-.noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+.noSelect:focus {
+outline: none !important;
+}
+
+.noSelect:hover {
+background-color: white;
 }
 
 a:hover {

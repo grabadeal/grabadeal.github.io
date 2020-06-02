@@ -35,20 +35,13 @@ a {
   color: #fff;
   border: 2px solid #fff;
   text-decoration: none;
-  transition: all .2s ease-in-out
 }
 
-.noSelect:focus {
-outline: none !important;
-}
-
-.noSelect:hover {
-background-color: white;
-}
 
 a:hover {
   background-color: #fff;
   color: #cc2b5e;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 h2 {
@@ -71,6 +64,10 @@ h2 {
   background-color: #cc2b5e;
   border: none;
   font-weight: bold;
+}
+
+.channels a:hover {
+ -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
 }
 
 .channels a:last-child {
